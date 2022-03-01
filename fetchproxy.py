@@ -1,7 +1,5 @@
 from telethon import TelegramClient, events
 
-from dotenv import load_dotenv
-from os import getenv
 import argparse
 from config import api_id, api_hash
 
