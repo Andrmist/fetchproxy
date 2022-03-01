@@ -1,7 +1,5 @@
 # fetchproxy
 
-## DESCRIPTION
-
 Скріпт витягує файл проксі з https://t.me/proxy_list_misha та зберігає до файлу 
 
 ## INSTALL
