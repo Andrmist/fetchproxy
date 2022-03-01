@@ -1,7 +1,5 @@
 # fetchproxy
 
-## DESCRIPTION
-
 Скріпт витягує файл проксі з https://t.me/proxy_list_misha та зберігає до файлу 
 
 ## INSTALL
@@ -15,10 +13,10 @@ pip3 install telethon dotenv
 
 Отримати нижче вказані значення можна на [my.telegram.org](my.telegram.org)
 
-`.env`
+`config.py`
 ```
-TELEGRAM_API_ID=
-TELEGRAM_API_HASH=
+api_id = 
+api_hash = ""
 ```
 
 ## USAGE

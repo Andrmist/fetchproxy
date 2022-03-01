@@ -1,3 +1,5 @@
 *.session
-.env
+config.py
 .idea/
+__pycache__/
+proxy.txt
