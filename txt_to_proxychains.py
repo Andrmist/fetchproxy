@@ -22,15 +22,19 @@ lines = proxychains_file.readlines()
 proxychains_file.seek(0)
 index = 0
 
+# print(lines)
+
 try:
-    index = lines.index('[ProxyList]')
+    index = lines.index('[ProxyList]\n')
 except ValueError:
     index = len(lines)
+
+print(index)
 
 proxychains_file.truncate()
 
 for number, line in enumerate(lines):
-    if number not in range(index, -1):
+    if number not in range(index + 1, len(lines)):
         proxychains_file.write(line)
 
 for proxy in proxy_file.readlines():
